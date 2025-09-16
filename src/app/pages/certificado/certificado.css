@@ -21,6 +21,7 @@
 }
 
 .certificado {
+  background-image: url(../../../../public/certificate/certificate_BG.png);
   position: relative;
   margin-top: 32px;
   width: 800px;
