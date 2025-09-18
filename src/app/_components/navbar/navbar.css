@@ -2,16 +2,32 @@
   background-color: #fff;
   padding: 1rem 2rem;
   border-bottom: 1px solid #E2E8F0;
+  padding-right: 28px;
+  padding-left: 12px;
 }
 
 .navbar-logo img {
   height: 40px;
 }
 
+.nav-link {
+  padding: 6px !important;
+}
+
 .nav-link-active {
   color: #385Ac2;
+  font-weight: 600;
 }
 
 .active {
   color: #385Ac2;
+}
+
+.nav-item {
+  margin-left: 18px !important;
+  cursor: pointer;
+}
+
+.nav-item i {
+  font-size: 20px;
 }
