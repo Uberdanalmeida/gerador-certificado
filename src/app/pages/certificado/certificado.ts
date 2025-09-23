@@ -4,7 +4,7 @@ import { SecondaryButton } from "../../_components/secondary-button/secondary-bu
 
 @Component({
   selector: 'app-certificado',
-  imports: [],
+  imports: [SecondaryButton],
   templateUrl: './certificado.html',
   styleUrl: './certificado.css'
 })
