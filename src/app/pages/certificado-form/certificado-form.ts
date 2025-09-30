@@ -21,7 +21,7 @@ export class CertificadoForm {
   }
 
   formValido() {
-    return this.atividades.length > 0 && this.nome.length > 0
+    return this.atividades.length > 0 && this.nome.length > 0;
   }
 
   adicionarAtividade() {
